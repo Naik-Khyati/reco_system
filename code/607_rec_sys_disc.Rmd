@@ -1,0 +1,39 @@
+---
+title: "Discussion/Assignment : Recommender Systems"
+author: "Khyati Naik"
+date: "`r Sys.Date()`"
+---
+
+## __Background:__
+
+Amazon is an American technology company that offers services such as e-commerce, cloud computing, and streaming. The company was founded in 1994 by Jeff Bezos and is considered the largest online marketplace in the world in terms of revenue and market capitalization, and the largest internet company in the world in terms of revenue.The company currently ranks fourteenth for global internet engagement on Alexa rankings.
+
+## __Who are your target users?__
+
+Customers: Amazon is designed mainly for retail customers wanting to buy anything from electronics to kids toys. The age group of the amazon customers is typically between 25 to 45, however people older than 45 and younger than 25 also use amazon. 
+
+Organization: Amazon also provides a place for many entrepreneurs to sell their products. So, such organizations who want a market to sell their products are also target users of Amazon.
+
+## __What are their key goals?__
+
+Customer: The key goal of the website is to provide a marketplace where sellers can meet the buyers. Buyers can open their account with amazon and search for products they want to buy.  
+  
+Organization: It enables the small enterpreneurs as well as big sellers to open account on amazon and advertise their products. 
+
+## __How can you help them accomplish those goals?__
+
+Amazon is a pretty well designed website. I would definitely conduct a survey to know more about the users likes and dislikes about the website before making any changes. after conducting secondary research, i believe following changes could enhance user experience.  
+  
+The product page looks too cluttered with too much information. I would remove a few unwanted things and/or use links to open more details in a new screen.  
+  
+The reviews are grouped under one product type however, as there are new updates/versions of the same products people may get false impressions going by the old reviews. hence, I would ungroup reviews by product version so that one could find the reviews for the exact version of the product.
+
+## __Reverse Engineering__
+
+The company’s recommendation system is designed to understand and predict user interest and behaviors, and make recommendations based on these insights, it is an integral tool for driving user purchases and increasing and maintaining user attention and engagement on the platform. Amazon’s e-commerce recommendation engine is powerful, and it engages with users at every stage of their journey on the website. It can therefore influence everything from what products a user sees to which items they eventually buy. According to a 2001 paper authored by three Amazon employees, the company opted to use the item-to-item collaborative-filtering model rather than a traditional collaborative-filtering model, or models such as content-based models. This is because its algorithm’s online computation grows at a rate that is not connected to the growth in the number of customers and items in the product catalog. As a result, this model is able to generate real-time recommendations, scale to large data sets, and produce recommendations that are more likely to be of interest to users. This model is also less computationally expensive than the other models previously outlined. Item-to-item collaborative-filtering model has served as a significant targeted marketing tool and has transformed the e-commerce space tremendously. Although Amazon publicly notes how it uses the private ratings, the company has not indicated whether and how its recommendation systems rely upon the public ratings and feedback that users provide on items they have purchased and sellers they have purchased from.  
+
+## __Suggestions for possible improvement__
+
+The lack of transparency around how the company uses algorithmic decision-making is concerning, as there have been numerous instances indicating that the company’s recommendation algorithms can be taken advantage of. The rise of the QAnon book in Amazon’s top books sold list, as described above, is an example of the ease with which the company’s algorithms can be gamed. Although the QAnon movement has a relatively small base, through coordinated purchasing behaviors, the group was able to generate a spike in book sales and therefore foster its rise in Amazon’s rankings. The group also coordinated subsequent reviews of the book, giving it five stars and prompting the platform’s algorithms to continue recommending it. As a result of this, the book, which peddles fringe ideas, was able to gain significant viewership. The book’s sales peak may not have lasted long, and the boost in viewership may not have resulted in a significant number of subsequent purchases, but it did succeed in making the book and its ideas seem mainstream. Thus, I would work on improving recommendation engine from transparency and fairness perspective.  
+  
+  Source: [New America](https://www.newamerica.org/oti/reports/why-am-i-seeing-this/case-study-amazon)
